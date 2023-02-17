@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.codec.binary.Base64;
 
-public class HelloController {
+public class Base64EncoderController {
     @FXML
     private TextField fileName;
 

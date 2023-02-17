@@ -7,10 +7,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class Base64EncoderApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("UI.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Base64EncoderApplication.class.getResource("UI.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 425);
         stage.setTitle("Base64Encoder");
         stage.setScene(scene);
