@@ -12,7 +12,7 @@ public class Base64EncoderApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Base64EncoderApplication.class.getResource("UI.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 425);
-        stage.setTitle("Base64Encoder");
+        stage.setTitle("Base64Encoder ~ AJITH KP");
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();
